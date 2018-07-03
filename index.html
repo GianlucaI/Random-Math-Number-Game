@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crystal Collector</title>
+
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Crystal Collector Jumbotron -->
+    <div class="jumbotron" style="background-color: purple; color: white">
+      <div class="container">
+        <h1 class="text-center">
+          <strong>Crystal Collector!</strong>
+        </h1>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <h3 class="card-header text-center" , style="background-color: purple; color:white">
+            Instruction
+          </h3>
+          <div class="card-body">
+            <p class="card-text">
+              <li> You will be given a random number at the start of the game. </li>
+              <li>There are four crystals below. </li>
+              <li>By clicking on a crystal you will add a specific amount of points to your total score. </li>
+              <li>You win the game by matching your total score to random number, you lose the game if your total score goes
+                above the random number. </li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col lg 12">
+        <div class="card">
+          <div class="card-body text-center" , style=>
+            <h5 class="card-title text-center" , style="background-color:purple; color:white">CRYSTAL SELECTION</h5>
+            <img src="assets/images/BlueCrystal.jpeg" alt="Blue Crystal" id="blue" height="100" width="100">
+            <img src="assets/images/GreenCrystal.jpeg" alt="Green Crystal" id="green" height="100" width="100">
+            <img src="assets/images/OrangeCrystal.jpeg" alt="Orange Crystal" id="orange" height="100" width="100">
+            <img src="assets/images/RedCrystal.jpeg" alt="Red Crystal" id="red" height="100" width="100">
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center" , style="background-color:purple; color:white">Target Score</h5>
+            <p class="card-text text-center" id="targetScore"> 39</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center" , style="background-color:purple; color:white">Your Total Score</h5>
+            <p class="card-text text-center" id="yourScore"> 0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center" , style="background-color:purple; color:white">Wins:</h5>
+            <p class="card-text text-center" id="winCount">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center" , style="background-color:purple; color:white">Losses:</h5>
+            <p class="card-text text-center" id="lossCount">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <!-- javaScript Main Game Logic -->
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
