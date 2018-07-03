@@ -22,3 +22,6 @@ Main functions used:
 
 LAUNCH:
 Click on link to launch the game and try it out.
+
+https://gianlucai.github.io/Random-Math-Number-Game/
+
